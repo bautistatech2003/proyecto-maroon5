@@ -1,0 +1,530 @@
+            /* esto es html */
+            html {
+
+              font-size: 62.5%;
+            }
+
+
+            /*   esto es el audio principal   */
+
+
+
+            /* estos son los parrafos*/
+
+
+            .desafio {
+
+              color: rgb(150, 0, 0);
+              font-family: 'Times New Roman', Times, serif;
+              font-weight: 700;
+
+            }
+
+            p {
+
+              font-size: 2rem;
+
+            }
+
+            .noahlevine {
+
+              color: rgb(255, 19, 19);
+              font-weight: 700;
+
+            }
+
+            .jamesvalentine {
+
+              color: rgb(255, 19, 19);
+              font-weight: 700;
+
+
+            }
+
+            .mattflynn {
+              color: rgb(255, 19, 19);
+              font-weight: 700;
+
+
+            }
+
+            .jessecarmichael {
+
+              color: rgb(255, 19, 19);
+              font-weight: 700;
+
+
+            }
+
+            .pjmorton {
+
+              color: rgb(255, 19, 19);
+              font-weight: 700;
+
+
+            }
+
+            .samfarrar {
+
+              color: rgb(255, 19, 19);
+              font-weight: 700;
+
+
+            }
+
+            .parrafoblanco {
+              font-size: 2rem;
+              color: rgb(219, 100, 30);
+              font-family: 'Times New Roman', Times, serif;
+              font-weight: 700;
+
+            }
+
+            .pdiscografia {
+
+              color: white;
+              font-size: 2rem;
+              font-family: 'Times New Roman', Times, serif;
+              font-weight: 700;
+
+
+            }
+
+
+            /* estos son los titulos */
+
+            .titulointegrantes {
+
+              color: rgb(255, 255, 255);
+              text-align: center;
+              font-size: 3rem;
+              font-family: 'Times New Roman', Times, serif;
+            }
+
+
+            .maroonprincipal {
+
+              text-align: center;
+              color: rgb(255, 255, 255);
+              font-size: 4rem;
+              font-family: 'Times New Roman', Times, serif;
+              letter-spacing: 2rem;
+              margin-top: 100px;
+              animation: giroYAchique 5s infinite ease-in-out;
+
+            }
+
+            @keyframes giroYAchique {
+
+              0% {
+                transform: scale(1) rotate(0deg);
+              }
+
+              25% {
+                transform: scale(0.7) rotate(90deg);
+                /* empieza a achicarse mientras gira */
+              }
+
+              50% {
+                transform: scale(0.5) rotate(180deg);
+                /* punto mínimo de tamaño y mitad del giro */
+              }
+
+              75% {
+                transform: scale(0.7) rotate(270deg);
+                /* empieza a volver a crecer */
+              }
+
+              100% {
+                transform: scale(1) rotate(360deg);
+                /* vuelve a tamaño y posición original */
+              }
+            }
+
+            .biografiaprincipal {
+
+              color: rgb(255, 255, 255);
+              text-align: center;
+              font-weight: 100;
+              font-size: 3rem;
+              font-family: 'Times New Roman', Times, serif;
+            }
+
+
+            .contactanos {
+
+              color: white;
+              font-size: 3rem;
+              font-weight: 700;
+              font-family: 'Times New Roman', Times, serif;
+              text-align: center;
+            }
+
+
+
+            .discografica {
+
+              color: white;
+              font-size: 3rem;
+              font-weight: 700;
+              font-family: 'Times New Roman', Times, serif;
+              text-align: center;
+            }
+
+
+            /*  estas son las imagenes */
+
+            /* Logo */
+            .logo {
+              position: absolute;
+              top: 50px;
+              right: 80px;
+              z-index: 10;
+            }
+
+            .logo img {
+              width: 150px;
+              height: 150px;
+              border-radius: 50px;
+              transition: transform 0.10s ease-in-out;
+            }
+
+            .logo:hover {
+
+              transform: scale(1.2);
+
+            }
+
+            .fotouno {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin: 2rem 0;
+              animation: moverimagen 10s infinite ease-in-out;
+
+            }
+
+            @keyframes moverimagen {
+
+              0% {
+                transform: translateX(0);
+              }
+
+              50% {
+                transform: translateX(800px);
+              }
+
+              100% {
+                transform: translateX(0);
+              }
+
+
+            }
+
+
+            .fotouno {
+              width: 100%;
+              max-width: 400px;
+              border: solid white 3px;
+              box-sizing: border-box;
+              padding: 4px;
+              border-radius: 8px;
+            }
+
+
+            .fondodediscografia {
+              background-image: url(https://th.bing.com/th/id/R.e7d93cc72aa3eb75d4bd12af65c46212?rik=dCsowjrNmRpImg&riu=http%3a%2f%2f4.bp.blogspot.com%2f-BseFz38feik%2fUwTOH0sTiMI%2fAAAAAAAAfXg%2f7k37ThUrNCE%2fs1600%2fDescargar%2bIncreibles%2bfondos%2babstractos%2bHD%2b%252528223%252529.jpg&ehk=lwm33blqTdGPW%2f9g6AcFYlk1KXWa8lu1kgkQsUmTgXM%3d&risl=&pid=ImgRaw&r=0    );
+            }
+
+            .imgintegrantes {
+              height: 50%;
+              border: solid white 3px;
+              box-sizing: border-box;
+              padding: 4px;
+              border-radius: 5px;
+              animation: moverimagen 7s infinite ease-in-out;
+
+            }
+
+            /* estas son las listas */
+
+            ul li {
+              color: rgb(138, 32, 32);
+
+            }
+
+            /*estas son las secciones */
+
+            section {
+
+              background-color: #000000;
+            }
+
+            .discografiapri {
+
+              background-color: black;
+            }
+
+            /* este es el body  */
+            body {
+              margin: 0;
+              padding: 0;
+              background-color: rgb(0, 0, 0);
+              font-family: 'Roboto', sans-serif;
+            }
+
+            /* estas son las tablas*/
+
+            .tablacolor {
+              font-size: 2rem;
+              background-color: rgb(136, 136, 255);
+              text-align: left;
+              margin-left: auto;
+              /* Centra la tabla */
+              margin-right: auto;
+              margin-top: 80px;
+              /* Ajusta el margen superior para bajarla más */
+              width: 80%;
+              /* Ajusta el tamaño de la tabla */
+
+            }
+
+            tr th {
+
+              background-color: rgb(0, 0, 0);
+              color: rgb(255, 240, 243);
+              text-align: center;
+
+            }
+
+            tr:nth-child(even) {
+
+              background-color: rgb(66, 78, 245);
+
+            }
+
+            tr:hover {
+
+              background-color: aliceblue;
+              cursor: pointer;
+
+            }
+            
+            /* barra de navegacion*/
+
+            /* Ocultamos el botón ☰ en pantallas grandes */
+            .menu-toggle {
+              display: none;
+              font-size: 3rem;
+              color: white;
+              cursor: pointer;
+            }
+
+            /* Estilo básico del nav */
+            .navbar {
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              background-color: black;
+              padding: 1rem;
+            }
+
+            .nav-links {
+              list-style: none;
+              display: flex;
+              gap: 2rem;
+            }
+
+            /* Para celulares 📱 */
+            @media (max-width: 768px) {
+              .menu-toggle {
+                display: block;
+              }
+
+              .nav-links {
+                display: none;
+                flex-direction: column;
+                background-color: #000;
+                position: absolute;
+                top: 60px;
+                right: 10px;
+                padding: 1rem;
+                border-radius: 8px;
+              }
+
+              .nav-links.active {
+                display: flex;
+              }
+            }
+
+
+            /* enlaces  */
+            a {
+              text-decoration: none;
+              color: rgb(203, 184, 184);
+              padding: 0 1rem;
+              font-weight: 100;
+              font-size: 3rem;
+              font-family: fantasy;
+            }
+
+            a:hover {
+              color: rgb(208, 28, 15);
+              background-color: rgb(0, 0, 0);
+              inline-size: 3rem;
+              width: auto;
+              transform: translatex(2rem);
+
+            }
+
+
+            /* formulario */
+
+            .formulario {
+              background-color: darkcyan;
+              font-size: 2rem;
+              border-radius: 6px;
+            }
+
+            /*   iconos   */
+
+            .fa-brands {
+
+              color: white;
+              font-size: 2rem;
+              letter: spacing 2rem;
+            }
+
+            /*    iframes        */
+            .video-container {
+
+              text-align: center;
+              margin-left: auto;
+              margin-right: auto;
+              width: 80%;
+              animation: moverimagen 7s infinite ease-in-out;
+
+            }
+
+            /* este es el video */
+
+            .video-wrapper {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              height: 50vh;
+              padding: 20px;
+              box-sizing: border-box;
+            }
+
+            .video {
+              width: 100%;
+              max-width: 1000px;
+              border: 3px solid white;
+              border-radius: 10px;
+              animation: moverIzquierda 7s infinite ease-in-out;
+            }
+
+            @keyframes moverIzquierda {
+              0% {
+                transform: translateX(0);
+                /* Comienza en la posición inicial */
+              }
+
+              50% {
+                transform: translateX(-800px);
+                /* Se mueve -800px a la izquierda */
+              }
+
+              100% {
+                transform: translateX(0);
+                /* Vuelve a su posición inicial */
+              }
+            }
+
+
+            /* boton para subir arriba */
+
+            .btn-volver-arriba {
+              position: fixed;
+              /*esto es para que la posicion sea fija */
+              bottom: 20px;
+              right: 20px;
+              background-color: rgb(253, 253, 253);
+              color: white;
+              font-size: 2rem;
+              padding: 1rem 1.5rem;
+              border-radius: 50%;
+              text-align: center;
+              text-decoration: none;
+              box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+              z-index: 1000;
+              transition: transform 0.3s ease;
+            }
+
+            .btn-volver-arriba:hover {
+              /* esto sucede cuando pasas la flecha por encima ( hover) */
+              background-color: rgb(71, 0, 0);
+              transform: scale(1.1);
+            }
+
+            /* media querries */
+
+
+
+            /* 📱 Celulares (hasta 480px) */
+            @media (max-width: 480px) {
+              .maroonprincipal {
+                font-size: 2.5rem;
+                letter-spacing: 1rem;
+              }
+
+              .titulointegrantes,
+              .biografiaprincipal,
+              .discografia,
+              .contactanos {
+                font-size: 2rem;
+              }
+
+              .fotouno,
+              .imgintegrantes {
+                width: 90%;
+                margin: 0 auto;
+                display: block;
+              }
+
+              .tablacolor {
+                font-size: 1.4rem;
+                width: 100%;
+                margin: 0;
+              }
+
+              nav a {
+                font-size: 1.6rem;
+                display: block;
+                margin: 0.5rem 0;
+              }
+
+              .btn-volver-arriba {
+                font-size: 1.8rem;
+                padding: 0.8rem 1.2rem;
+              }
+            }
+
+            /* 💊 Tablets (481px a 768px) */
+            @media (min-width: 481px) and (max-width: 768px) {
+              .maroonprincipal {
+                font-size: 3rem;
+                letter-spacing: 1.5rem;
+              }
+
+              .fotouno {
+                margin-left: 0;
+                width: 80%;
+              }
+
+              .tablacolor {
+                width: 95%;
+                font-size: 1.6rem;
+              }
+            }
